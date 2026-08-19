@@ -1,81 +1,87 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Jeevanand J — Personal Portfolio Website
 
-A modern, responsive portfolio website built using **React**, **Vite**, and **Tailwind CSS**. The website showcases my profile, technical skills, projects, interests, career goals, and contact information through a sleek glassmorphism-inspired interface.
+A modern, responsive portfolio website built with **React 19**, **Vite 8**, **Tailwind CSS v4**, **Framer Motion**, and **Lucide React**. Showcasing full-stack web applications, embedded IoT systems, skills, interests, and career milestones through a sleek glassmorphism interface.
 
-## ✨ Features
+## ✨ Highlights & Features
 
-* 🚀 Fast performance powered by Vite
-* ⚛️ Built with React components
-* 🎨 Modern Glassmorphism UI
-* 📱 Fully responsive across devices
-* 🧭 Smooth navigation
-* 👤 About section
-* 💻 Skills section
-* 📂 Projects showcase
-* ❤️ Interests section
-* 🎯 Career goals
-* 📞 Contact section
-* 🧩 Clean and reusable component structure
+* ⚡ **Ultra-Fast Performance**: Built on Vite 8 & React 19.
+* 🎨 **Modern Glassmorphism UI**: Backdrop blur cards, neon gradient accents, and responsive typography.
+* ⌨️ **Dynamic Multi-Role Typewriter**: Animated hero section with rotating roles and live status indicator.
+* 🚀 **Curated & Live Projects**: Dual showcase of featured builds (CyberShop, Lost & Found, Weather API, Notes App) + dynamic GitHub repository explorer.
+* ⚡ **Interactive Skills Matrix**: Categorized skill filters (Frontend, Backend, Embedded & IoT, Tools & CS Core).
+* 🎯 **Interests & Career Goals**: Roadmap outlining 2026 internship goals and technical passions.
+* 📬 **Interactive Contact**: Direct communication cards, instant 1-click email copy, and mailto form integration.
+* 📄 **Integrated Resume**: Instant PDF download link.
 
 ## 🛠️ Tech Stack
 
-* React
-* Vite
-* Tailwind CSS
-* JavaScript (ES6+)
-* HTML5
-* CSS3
+* **Frontend**: React 19, JavaScript (ES6+), HTML5, CSS3
+* **Styling**: Tailwind CSS v4 (Glassmorphism, Gradients, Custom Scrollbar)
+* **Animations**: Framer Motion
+* **Icons**: Lucide React
+* **Build Tool**: Vite 8
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```text
-portfolio/
+Personal_Portfolio_Jeevanand/
 ├── public/
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── resume.pdf
 ├── src/
 │   ├── assets/
+│   │   └── profile.jpg
 │   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── InterestsGoals.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── data/
+│   │   └── portfolioData.js
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
 ```
 
-## 🚀 Installation
+## 🚀 Getting Started
 
 Clone the repository:
-
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/jeevanandjaisankar-JD/Personal_Portfolio_Jeevanand.git
 ```
 
 Install dependencies:
-
 ```bash
 npm install
 ```
 
-Run the development server:
-
+Start the local development server:
 ```bash
 npm run dev
 ```
 
 Build for production:
-
 ```bash
 npm run build
 ```
 
-Preview the production build:
-
+Preview production build:
 ```bash
 npm run preview
 ```
 
-## 🎯 Purpose
+## 📬 Contact & Connect
 
-This portfolio serves as a central place to showcase my journey as a Computer Science student, highlight my projects, demonstrate my technical skills, and provide an easy way for recruiters and collaborators to connect with me.
-
-
+* **Developer**: Jeevanand J
+* **GitHub**: [@jeevanandjaisankar-JD](https://github.com/jeevanandjaisankar-JD)
+* **LinkedIn**: [jeevanand-j-575676281](https://www.linkedin.com/in/jeevanand-j-575676281/)
+* **Email**: [jeevanandjaisankar@gmail.com](mailto:jeevanandjaisankar@gmail.com)
