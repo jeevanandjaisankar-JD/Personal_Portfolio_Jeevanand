@@ -78,6 +78,8 @@ Preview production build:
 ```bash
 npm run preview
 ```
+Can also view from the live link deployed from vercel :
+https://personal-portfolio-jeevanand.vercel.app
 
 ## 📬 Contact & Connect
 
